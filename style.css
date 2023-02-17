@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(23-fevralya.jpg);
+    background-size: cover;
+}
+
+
+.backdrop {
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    max-width: 49%;
+    padding-top: 186px;
+    margin-left: 1000px;
+
+}
+
+.text {
+    padding: 115px 0px 182px;
+
+}
+
+.backdrop__content {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text__contant {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+
+}
+
+.text {}
+
+.text__contant {}
+
+.pic__people {
+    display: block;
+    margin-left: auto;
+}
