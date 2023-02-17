@@ -8,57 +8,140 @@ body {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
+
 }
 
 .wrapper {
     min-height: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Anton', sans-serif;
 
 }
 
+
 .hero {
     height: 100vh;
-    background-image: url(23-fevralya.jpg);
+    background-image: url(2224.jpg);
     background-size: cover;
+}
+
+.logo {
+    
 }
 
 
 .backdrop {
-    color: white;
+    color: rgb(0, 0, 0);
     position: absolute;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-bottom: 50px;
     max-width: 49%;
     padding-top: 186px;
     margin-left: 1000px;
 
+
 }
+
+ul {
+    
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.nav {
+    padding: 20px 30px;
+    
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.14;
+    color: rgb(255, 255, 255);
+    padding: 30px 0px;
+    
+}
+
 
 .text {
     padding: 115px 0px 182px;
 
 }
 
+.backdrop {
+    color: rgb(255, 255, 255);
+
+}
+
 .backdrop__content {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+
 }
 
 .text__contant {
     color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: left;
     display: flex;
+    padding: 30px 45px;
 
 }
 
-.text {}
+.text {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Anton', sans-serif;
 
-.text__contant {}
+}
 
 .pic__people {
     display: block;
     margin-left: auto;
+    border-radius: 10px;
 }
+
+.text__title {
+    padding: 45px 30px;
+}
+
+.poems {
+    background-color: rgb(7, 7, 94);
+    font-size: 30px;
+    color: white;
+    padding: 20px 30px;
+}
+
+
+
